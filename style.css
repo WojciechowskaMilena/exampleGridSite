@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
     Verdana, sans-serif;
-  background: #333;
+  background: #c4843b;
   color: #fff;
   font-size: 1.1em;
   line-height: 1.5;
@@ -30,16 +30,16 @@ p {
 .btn {
   display: inline-block;
   margin: 0.5em 0;
-  background: #333;
-  color: #fff;
+  background: #c4843b;
+  color: #3f0b0b;
   text-decoration: none;
   padding: 1em 2em;
-  border: 1px solid #666;
+  border: 1px solid #411818;
 }
 
-btn:hover {
-  background: #eaeaea;
-  color: #333;
+.btn:hover {
+  background: #f0efd2;
+  color: #411818;
 }
 
 /* Header showcase */
@@ -59,7 +59,7 @@ btn:hover {
   width: 100%;
   height: 450px;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 #showcase h1 {
@@ -67,6 +67,69 @@ btn:hover {
   padding-bottom: 0;
 }
 
-#showcase .content-wrap {
+#showcase .content-wrap,
+#section-a .content-wrap {
   padding: 0 1.5em;
+}
+
+/* section A*/
+
+#section-a {
+  background: #f0efd2;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+/* section B */
+#section-b {
+  padding: 2em 1em 1em;
+}
+
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-b li {
+  margin-bottom: 1em;
+  background: #f0efd2;
+  color: #333;
+}
+
+.card-content {
+  padding: 1.5em;
+}
+
+/* section-c */
+
+#section-c {
+  background: #f3f3ea;
+  color: #333;
+  padding: 2em;
+}
+
+/* section D */
+
+#section-d .box {
+  padding: 2em;
+  color: #fff;
+}
+
+#section-d .box:first-child {
+  background: #3f0b0b;
+}
+
+/* footer */
+
+#main-footer {
+  padding: 2em;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#main-footer a {
+  color: #3f0b0b;
+  text-decoration: none;
 }
